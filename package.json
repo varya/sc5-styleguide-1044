@@ -1,0 +1,17 @@
+{
+  "name": "sc5-styleguide-1044",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gonzales-pe": "^4.0.3",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "sc5-styleguide": "^1.8.1"
+  }
+}

@@ -1,0 +1,61 @@
+// Basics
+//
+// Styleguide 2
+
+$dark-grey: #999;
+$white: #FFF;
+$opacity-black-2: #000;
+$blue: blue;
+$orange: orange;
+$orange-gradient: orange;
+
+// Button
+//
+// default - Default button
+// button--shadow - Shadow button
+// button--blue - Blue button
+// button--orange - Orange button
+// button--orange-gradient - Orange gradient button
+//
+// markup:
+// <a href="#" class="button {$modifiers}">Button text</a>
+//
+// Styleguide 2.1
+
+.button
+  background: $dark-grey
+  border-radius: 5px
+  color: $white
+  display: block
+  font-size: 18px
+  line-height: 20px
+  padding: 14px 10px
+  position: relative
+  text-align: center
+  text-decoration: none
+
+  &--shadow
+    box-shadow: 1px 2px 4px $opacity-black-2
+
+  &--blue
+    background: $blue
+
+  &--orange
+    background: $orange
+
+  &--orange-gradient
+    background: $orange-gradient
+
+
+// Navigation
+//
+// markup:
+// <nav class="nav">Navigation</nav>
+//
+// Styleguide 2.2
+
+.nav
+  display: block
+  background: $blue
+
+
